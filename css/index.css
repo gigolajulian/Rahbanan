@@ -1,0 +1,409 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: normal 1.25em/1.38 HelveticaNeue-Light;
+  color: rgb(0, 0, 0);
+}
+
+.air-freight-h1 {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 26.8333333333%;
+  min-height: 75px;
+  margin: 200px 0 0 9.02865%;
+  font: 2.5em/1.38 HelveticaNeue-UltraLight;
+  color: rgb(0, 0, 0);
+}
+
+.air-icon {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 4;
+  width: 264px;
+  height: auto;
+  margin: 183px 0 0 12.16146%;
+  overflow: hidden;
+}
+
+.air-text {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 9;
+  width: 44.0833333333%;
+  min-height: 151px;
+  margin: -162px 0 0 39.91276%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 89.8333333333%;
+  height: 164px;
+  margin: 0 auto;
+}
+
+.ocean-h1 {
+  position: relative;
+  float: left;
+  z-index: 10;
+  width: 26.8333333333%;
+  min-height: 75px;
+  margin: 82px 0 0 15.19792%;
+  font: 2.5em/1.38 HelveticaNeue-UltraLight;
+  color: rgb(0, 0, 0);
+}
+
+.ocean-icon {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 6;
+  width: 278px;
+  height: auto;
+  margin: -106px 0 0 6.84375%;
+  overflow: hidden;
+}
+
+.ocean-text {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 11;
+  width: 44.0833333333%;
+  min-height: 151px;
+  margin-left: 15.19792%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.plus {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 46px;
+  height: auto;
+  margin: 232px 0 0 3.26693%;
+  overflow: hidden;
+}
+
+.r-r-h1 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 12;
+  width: 34.75%;
+  min-height: 75px;
+  margin: -243px 0 0 34.8138%;
+  font: 2.5em/1.38 HelveticaNeue-UltraLight;
+  color: rgb(0, 0, 0);
+}
+
+.rail-icon {
+  display: block;
+  float: left;
+  width: 278px;
+  height: auto;
+  margin: 392px 0 0 5.00391%;
+  overflow: hidden;
+}
+
+.road-icon {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 7;
+  width: 278px;
+  height: auto;
+  margin: 114px 0 0 25.72917%;
+  overflow: hidden;
+}
+
+.text {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 13;
+  width: 39.1666666666%;
+  min-height: 151px;
+  margin: 124px 0 0 32.03125%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.textservices {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100.0833333333%;
+  height: 164px;
+  min-height: 87px;
+  margin: 0 auto;
+  border-radius: 35px;
+  font: 3em/1.38 HelveticaNeue-Thin;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  white-space: normal;
+}
+
+.worldmap {
+  display: block;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 196px 0 0 5.66146%;
+  overflow: hidden;
+}
+
+@media(max-width: 930px) {
+  .air-freight-h1 {
+    position: relative;
+    z-index: 8;
+    margin-top: 940px;
+    margin-left: 9.0289%;
+  }
+
+  .air-icon {
+    position: relative;
+    clear: none;
+    z-index: 4;
+    height: auto;
+    margin-top: 923px;
+    margin-left: 12.16398%;
+  }
+
+  .air-text {
+    position: relative;
+    z-index: 9;
+    margin-left: 39.8958299999%;
+  }
+
+  .container {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .textservices {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+  }
+
+  .ocean-h1 {
+    position: relative;
+    clear: both;
+    z-index: 10;
+    margin-left: 15.17809%;
+  }
+
+  .ocean-icon {
+    position: relative;
+    z-index: 6;
+    height: auto;
+    margin-left: 6.84644%;
+  }
+
+  .ocean-text {
+    position: relative;
+    z-index: 11;
+    margin-left: 15.17809%;
+  }
+
+  .plus {
+    position: relative;
+    z-index: 3;
+    height: auto;
+    margin-left: 3.26613%;
+  }
+
+  .r-r-h1 {
+    position: relative;
+    z-index: 12;
+    margin-left: 34.81519%;
+  }
+
+  .rail-icon {
+    clear: both;
+    height: auto;
+    margin-top: 1px;
+    margin-left: 60.98622%;
+  }
+
+  .road-icon {
+    position: relative;
+    z-index: 7;
+    height: auto;
+  }
+
+  .text {
+    position: relative;
+    z-index: 13;
+  }
+
+  .worldmap {
+    position: absolute;
+    float: none;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 640px) {
+  body {
+    font-size: 0.875em;
+  }
+
+  .air-freight-h1 {
+    position: relative;
+    z-index: 8;
+    width: 18.90625%;
+    margin-top: 536px;
+    margin-left: 31.99707%;
+    font-size: 2.143em;
+  }
+
+  .air-icon {
+    position: absolute;
+    float: none;
+    top: 536px;
+    left: 3.28125%;
+    width: 163px;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .air-text {
+    position: relative;
+    z-index: 9;
+    width: 59.375%;
+    margin-top: -41px;
+    margin-left: 31.99707%;
+    font-size: 14px;
+  }
+
+  .container {
+    left: auto;
+    right: auto;
+  }
+
+  .container .textservices {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 116.590894538%;
+    height: 87px;
+    margin: auto;
+    font-size: 2.143em;
+  }
+
+  .ocean-h1 {
+    position: relative;
+    z-index: 10;
+    width: 40.3125%;
+    margin-top: 10px;
+    margin-left: 6.4917%;
+    font-size: 2.143em;
+  }
+
+  .ocean-icon {
+    position: relative;
+    z-index: 6;
+    width: 163px;
+    height: auto;
+    margin-top: -75px;
+    margin-left: 0;
+  }
+
+  .ocean-text {
+    position: relative;
+    z-index: 11;
+    width: 63.125%;
+    margin-top: -29px;
+    margin-left: 6.5625%;
+    font-size: 14px;
+  }
+
+  .plus {
+    position: relative;
+    clear: both;
+    z-index: 3;
+    width: 45px;
+    height: auto;
+    margin-top: -104px;
+    margin-left: 44.41162%;
+  }
+
+  .r-r-h1 {
+    position: relative;
+    z-index: 12;
+    width: 48.90625%;
+    margin-top: -204px;
+    margin-left: 25.49805%;
+    font-size: 2.143em;
+    text-align: center;
+  }
+
+  .rail-icon {
+    position: relative;
+    clear: none;
+    z-index: 5;
+    width: 163px;
+    height: auto;
+    margin-top: -163px;
+    margin-left: 11.85791%;
+  }
+
+  .road-icon {
+    position: relative;
+    z-index: 7;
+    width: 163px;
+    height: auto;
+    margin-top: 7px;
+    margin-left: 57.5%;
+  }
+
+  .text {
+    position: relative;
+    clear: none;
+    z-index: 13;
+    width: 63.4375%;
+    margin-top: 61px;
+    margin-left: 18.4985399999%;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .worldmap {
+    top: 123px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

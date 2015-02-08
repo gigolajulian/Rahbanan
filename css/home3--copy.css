@@ -1,0 +1,346 @@
+body {
+  background-color: rgb(23, 85, 148);
+  font: 400 1em/1.38 Avenir;
+  color: rgb(255, 255, 255);
+}
+
+.about-us {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16.1483253588%;
+  z-index: 1;
+  height: 34px;
+  margin: auto 0;
+  background-color: rgba(255, 255, 255, 0);
+  font: normal 1.313em/1.38 Avenir-Light;
+  text-align: center;
+  color: rgb(23, 85, 148);
+}
+
+.about-us:hover,
+.contact-us:hover,
+.get-quote:hover,
+.track-shipment:hover {
+  border-bottom: 3px solid rgb(247, 238, 7);
+}
+
+.contact-us {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 4;
+  height: 34px;
+  margin: auto 0;
+  background-color: rgba(255, 255, 255, 0);
+  font: normal 1.313em/1.38 Avenir-Light;
+  text-align: center;
+  color: rgb(23, 85, 148);
+}
+
+.copyright {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  z-index: 17;
+  width: 62.5833333333%;
+  min-height: 16px;
+  margin: 0 auto;
+  font: 400 0.75em/1.38 Lato;
+  text-align: center;
+  color: rgb(16, 60, 104);
+}
+
+.external-links .text {
+  top: 0;
+  z-index: 13;
+  width: 100%;
+  min-height: 18px;
+  font-family: Avenir-Light;
+  font-size: 2.188em;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(16, 60, 104);
+}
+
+.get-quote {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 35.5263157894%;
+  z-index: 2;
+  width: 144px;
+  height: 34px;
+  margin: auto 0;
+  background-color: rgba(255, 255, 255, 0);
+  font: normal 1.313em/1.38 Avenir-Light;
+  text-align: center;
+  color: rgb(23, 85, 148);
+}
+
+.home {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 34px;
+  margin: auto 0;
+  border-bottom: 3px solid rgb(23, 85, 148);
+  background-color: rgba(255, 255, 255, 0);
+  font: normal 1.313em/1.38 Avenir-Light;
+  text-align: center;
+  color: rgb(23, 85, 148);
+}
+
+.home:hover {
+  border-bottom: 3 solid rgb(247, 238, 7);
+}
+
+.about-us:active,
+.contact-us:active,
+.get-quote:active,
+.home:active,
+.track-shipment:active {
+  border-bottom: 3 solid rgb(255, 255, 255);
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  width: 220px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.ipmo {
+  display: block;
+  position: absolute;
+  top: 138px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  width: 100%;
+  min-height: 25px;
+  margin: 0 auto;
+  font: normal 1em/1.38 Avenir-Light;
+  text-align: center;
+  color: rgb(16, 60, 104);
+}
+
+.itcai {
+  display: block;
+  position: absolute;
+  top: 72px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  min-height: 25px;
+  margin: 0 auto;
+  font: normal 1em/1.38 Avenir-Light;
+  text-align: center;
+  color: rgb(16, 60, 104);
+}
+
+.ipmo:hover,
+.itcai:hover,
+.sai:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  width: 672px;
+  height: 34px;
+  margin: 0 auto;
+}
+
+.sai {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 25px;
+  margin: 0 auto;
+  font: normal 1em/1.38 Avenir-Light;
+  text-align: center;
+  color: rgb(16, 60, 104);
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  line-height: 1.38;
+}
+
+.text-2 p {
+  margin-bottom: 1em;
+}
+
+.track-shipment {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 21.0526315789%;
+  z-index: 3;
+  height: 34px;
+  margin: auto 0;
+  background-color: rgba(255, 255, 255, 0);
+  font: normal 1.313em/1.38 Avenir-Light;
+  text-align: center;
+  color: rgb(23, 85, 148);
+}
+
+._button {
+  display: block;
+  position: absolute;
+  top: 215px;
+  left: 0;
+  right: 0;
+  z-index: 7;
+  height: 31px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  font: normal 1.875em/1.38 AvenirNext-DemiBold;
+  text-align: center;
+  color: rgb(16, 60, 104);
+}
+
+._container {
+  width: 100%;
+  background-color: rgb(247, 238, 7);
+}
+
+.external-links-1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 16;
+  width: 40%;
+  height: 228px;
+  margin: auto;
+}
+
+.sai-1 {
+  top: 203px;
+  z-index: 15;
+}
+
+.sai-2 {
+  top: 105px;
+  z-index: 14;
+}
+
+.sai-3 {
+  top: 170px;
+  z-index: 12;
+}
+
+.text-1 {
+  top: 246px;
+  z-index: 8;
+  width: 12.0833333333%;
+  min-height: 20px;
+  font-family: AvenirNext-DemiBold;
+  font-size: 0.75em;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(16, 60, 104);
+}
+
+.text-2 {
+  top: 695px;
+  z-index: 19;
+  width: 70%;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+._container-1 {
+  position: relative;
+  float: left;
+  height: 320px;
+  border-top: 4px solid rgb(23, 85, 148);
+}
+
+._container-2 {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  z-index: 18;
+  height: 304px;
+}
+
+@media(max-width: 672px) {
+  .navbar .about-us,
+  .navbar .contact-us,
+  .navbar .get-quote,
+  .navbar .home,
+  .navbar .track-shipment {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  ._container .copyright-1,
+  ._container .navbar-1,
+  ._container .text-1,
+  .external-links .ipmo,
+  .external-links .itcai,
+  .external-links .sai,
+  .external-links .text,
+  .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container ._button-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .external-links-1 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80.3571428571%;
+    margin: auto;
+  }
+
+  ._container .image-1 {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

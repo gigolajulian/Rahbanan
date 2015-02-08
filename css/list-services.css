@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+.container {
+  float: left;
+  width: 100%;
+  height: 383px;
+}
+
+.element {
+  width: 101.3095238095%;
+  height: 586px;
+  margin: 0 auto;
+  background: url('../images/15366848338_b90482ea6b_o.jpg') rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+@media(max-width: 640px) {
+  .container .element {
+    margin-top: -195px;
+  }
+}
